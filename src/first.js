@@ -7,7 +7,7 @@ export class FirstComponent extends React.Component{
     </li>))
 
         return (
-            <div>İlk Component 1
+            <div>İlk Compot 1
                     <br></br>
             <ul>
                 {veriler}
