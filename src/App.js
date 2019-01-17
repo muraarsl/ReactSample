@@ -4,7 +4,7 @@ import {FirstComponent} from './first';
 
 class App extends Component {
   render() {
-    const propsabit="ilk prop örneği";
+    
     const liste= ["listenin ilk elemanı",
     "listenin ikinci elemanı",
     "listenin üçüncü elemanı",
