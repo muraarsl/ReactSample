@@ -4,13 +4,18 @@ import {FirstComponent} from './first';
 
 class App extends Component {
   render() {
-    const propsabit="ilk prop örneği"
+    const propsabit="ilk prop örneği";
+    const liste= ["listenin ilk elemanı",
+    "listenin ikinci elemanı",
+    "listenin üçüncü elemanı",
+    "listenin dördüncü elemanı"
+    ];
 
     return (
       <div>
      
       <hr/>  
-      <FirstComponent ilkprobs={propsabit}/>
+      <FirstComponent myliste={liste}/>
       </div>
     );
   }
